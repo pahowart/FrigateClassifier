@@ -26,5 +26,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tag: 'build-args'
+          tag: user/app:latest
       
