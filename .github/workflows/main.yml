@@ -41,5 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags:  pahowart/frigateclassifier:
+          tags:  pahowart/frigateclassifier: ${{ steps.meta.outputs.labels }}
           labels: ${{ steps.meta.outputs.labels }}
